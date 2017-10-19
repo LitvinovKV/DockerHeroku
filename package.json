@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "postinstall": "./node_modules/webpack/bin/webpack.js -p",
+    "start": "node --experimental-modules s.mjs"
+  },
+  "name": "sass01",
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "version": "1.0.0",
+  "main": "s.mjs",
+  "repository": "https://github.com/GossJS/heroku.git",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.7.1"
+  }
+}
